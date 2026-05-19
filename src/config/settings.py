@@ -6,7 +6,8 @@ BAUD_RATE = 115200
 SYNC_BYTE = 0x77
 
 # Mock Mode Toggle
-MOCK_MODE = True  # Set to False for production hardware
+# MOCK_MODE = True  # Set to False for production hardware
+MOCK_MODE = False
 
 # Register Groups
 GROUP_VOICE_1 = "Voice 1"
