@@ -148,9 +148,10 @@ The serial service is responsible for:
 * pySerial integration,
 * serial port opening,
 * packet construction,
-* serial transmission.
+* serial transmission,
+* **Mock mode simulation for hardware-less development.**
 
-The serial service exposes exactly one public function:
+The serial service implements an **Abstract Base Class (ABC)** interface and exposes exactly one public function:
 
 ```text
 write(register, data)
@@ -564,4 +565,3 @@ A register widget is not responsible for:
 * application logic.
 
 ---
-

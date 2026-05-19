@@ -1,0 +1,59 @@
+/* Global Dark Theme Settings */
+QWidget {
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    font-family: 'Monospace', 'DejaVu Sans Mono', 'Courier New';
+    font-size: 14px;
+}
+
+/* Framed Register Sections (Spec 12.3) */
+QGroupBox {
+    border: 2px solid #3c3c3c;
+    border-radius: 6px;
+    margin-top: 1.2em;
+    font-weight: bold;
+    color: #4ec9b0; /* Teal/Cyan accent for headers */
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top center;
+    padding: 0 10px;
+}
+
+/* Input Fields (Spec 16) */
+QLineEdit {
+    background-color: #3c3c3c;
+    border: 1px solid #555555;
+    color: #ffffff;
+    border-radius: 3px;
+    padding: 2px;
+}
+
+QLineEdit:focus {
+    border: 1px solid #007acc;
+}
+
+/* Buttons (Spec 14) */
+QPushButton {
+    background-color: #333333;
+    border: 1px solid #555555;
+    color: #cccccc;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+QPushButton:hover {
+    background-color: #454545;
+    border: 1px solid #007acc;
+    color: #ffffff;
+}
+
+QPushButton:pressed {
+    background-color: #007acc;
+}
+
+/* Vertical Scroll Area (Spec 12.2) */
+QScrollArea {
+    border: none;
+}
