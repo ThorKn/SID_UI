@@ -1,3 +1,15 @@
+A word about this repository:
+
+This is my second attempt to create code with the use of AI. Only these few sentences at the top of the README are handwritten. 
+
+I used ChatGPT on my Android mobile to start the project description and the specifications. This led to the first version of the README in Markdown. 
+
+When the README was in a ready state, i proceeded with the Gemini extension inside VSCode. Gemini did all the coding according to the specifications in the README. Gemini introduced some minor suggestions for improvements. After finishing the code, the README was updated to match the code.
+
+All this was done in one day, maybe 5-7 hours. The application seems to work fine and has a Mock/Test mode. There is no automated test environment.
+
+**From here on: AI generated content.**
+
 # Python USB UART Register Controller — Complete Project Specification
 
 ## 1. Project Overview
